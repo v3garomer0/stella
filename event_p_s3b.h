@@ -1,5 +1,5 @@
 
-#include "/home/gustavo/Documents/orsayData/"
+#include "/home/gustavo/Documents/orsayData/libPerso.h"
 
 const Int_t n_run = 10;
 const Double_t eneBeam = 9.6; // MeV; nominal in 10.04
