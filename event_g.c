@@ -1,6 +1,6 @@
 
 
-#include "/home/gustavo/Documents/orsayData/libPerso.h"
+#include "/home/gustavo/Documents/Stella/stella/libPerso.h"
 
 
 void event_g (){
@@ -19,7 +19,7 @@ void event_g (){
 
   TChain *f_in = new TChain ("t_event");
   //  f_in->Add ("/home/mheine/Delete/goData.root");
-  f_in->Add ("/home/gustavo/Documents/orsayData/r010_ene_g_1.root");
+  f_in->Add ("/home/gustavo/Documents/Stella/stella/r010_ene_g_1.root");
   f_in->SetBranchAddress ("event_g" , &event_g , &b_event_g);
   f_in->SetBranchAddress ("mult_g"  , &mult_g  , &b_mult_g);
   f_in->SetBranchAddress ("det_g"   , &det_g   , &b_det_g);    // 1..40

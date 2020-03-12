@@ -1,6 +1,6 @@
 
 
-#include "../Libs/libPerso.h"
+#include "/home/gustavo/Documents/Stella/stella/libPerso.h"
 
 
 void entry_p (){
@@ -16,7 +16,7 @@ void entry_p (){
   TChain *f_in = new TChain ("t_entry");
   //  f_in->Add ("../goData.root");                                                   // !!!!!!!!!!!
   //  f_in->Add ("../../goData_particle.root");
-  f_in->Add ("/home/mheine/Delete/r010_raw_p4_1.root");
+  f_in->Add ("/home/gustavo/Documents/Stella/stella/r010_raw_p4_1.root");
   f_in->SetBranchAddress ("entry_p", &entry_p, &b_entry_p);
   f_in->SetBranchAddress ("plug_p"  , &plug_p  , &b_plug_p);
   f_in->SetBranchAddress ("stamp_p", &stamp_p, &b_stamp_p);
